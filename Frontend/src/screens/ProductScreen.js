@@ -22,6 +22,7 @@ function ProductScreen() {
         </Link>
         <Row>
             <Col md={6}>
+                
                 <Image src={product.image} alt={product.name} fluid />
             </Col>
             <Col md={3}>
@@ -38,7 +39,7 @@ function ProductScreen() {
                         
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        Price: $Php{product.price}
+                        Price: $Php{product.bio}
                     </ListGroup.Item>
                 </ListGroup>
             </Col>
